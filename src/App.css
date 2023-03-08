@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: url('./Fonts/Poppins/Poppins-Thin.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('./Fonts/Poppins/Poppins-Bold.ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Poppins-Semibold';
+  src: url('./Fonts/Poppins/Poppins-SemiBold.ttf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'Poppins-medium';
+  src: url('./Fonts/Poppins/Poppins-Medium.ttf');
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Poppins-light';
+  src: url('./Fonts/Poppins/Poppins-Light.ttf');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@font-face {
+  font-family: 'Poppins-extralight';
+  src: url('./Fonts/Poppins/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-regular';
+  src: url('./Fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'gollock-regular';
+  src: url('./Fonts/Gloock/Gloock-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'alex-brush';
+  src: url('./Fonts/Alex_Brush/AlexBrush-Regular.ttf');
+}
+
+#thin{
+  font-family: 'Poppins-Thin', sans-serif;
+}
+
+#bold{
+  font-family: 'Poppins-Bold', sans-serif;
+}
+
+#semibold{
+  font-family: 'Poppins-Semibold', sans-serif;
+}
+
+#medium{
+  font-family: 'Poppins-medium', sans-serif;
+}
+
+#light{
+  font-family: 'Poppins-light', sans-serif;
+}
+
+#extralight{
+  font-family: 'Poppins-extralight', sans-serif;
+}
+
+#reguler{
+  font-family: 'Poppins-reguler', sans-serif;
+}
+
+#alex{
+  font-family: 'alex-brush', cursive;
+}
+
+#glock{
+  font-family: 'gollock-reguler', serif;
+}
+
+#wrapper{
+  height: 100%;
+  width: 100%;
+  background-image: url('./Assets/dekstop.png') ;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+@media only screen and (max-width: 768px) {
+  #wrapper{
+    height: 100%;
+    width: 100%;
+    background-image: url('./Assets/dekstop.png') ;
+    background-size: cover;
+    background-repeat: repeat;
   }
 }
