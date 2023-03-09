@@ -8,8 +8,12 @@ import facebook from '../Assets/facebook1.png'
 import instagram from '../Assets/instagram1.png'
 import phone from '../Assets/phone1.png'
 import mail from '../Assets/mail1.png'
+import { useNavigate } from 'react-router-dom'
 
 const LandingPage = () => {
+
+  const navigate = useNavigate()
+
   return (
     <div className='h-full md:h-screen w-screen'>
         <div className='fixed w-screen h-screen' id='wrapper'></div>
@@ -66,7 +70,7 @@ const LandingPage = () => {
                     </div>
                   </div>
                   <div id='semibold' className='md:mt-20 grid'>
-                    <button className='bg-gradient-to-l from-[#000428] to-[#004e92] mt-7 py-2 md:px-20 px-14 rounded-lg text-md md:text-2xl md:w-3/4 mx-auto animate-pulse transition-all text-white duration-700 hover:scale-125'>More about me? Click Here.</button>
+                    <button onClick={()=>navigate('/about-me')} className='bg-gradient-to-l from-[#000428] to-[#004e92] mt-7 py-2 md:px-20 px-14 rounded-lg text-md md:text-2xl md:w-3/4 mx-auto animate-pulse transition-all text-white duration-700 hover:scale-125'>More about me? Click Here.</button>
                   </div>
                 </div>
                 <div className="w-1/2 hidden md:grid">
