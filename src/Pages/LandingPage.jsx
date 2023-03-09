@@ -22,11 +22,11 @@ const LandingPage = () => {
                   <p className='text-xl md:text-4xl mb-5 md:-mb-5 text-white text-center md:text-left' id='extralight'>Assalamu’alaikum Warahmatullahi Wabarakatuh.</p>
                   <div className="flex space-x-2 md:my-10 md:space-x-10">
                     <p className='text-7xl md:text-[15rem] text-white' id='glock'>Hi</p>
-                    <p className='text-2xl md:text-6xl text-white mt-1 md:mt-8' id='glock'>I'm Irfan Julian Ibrahim, you can call me Irfan.</p>
+                    <p className='text-xl md:text-6xl text-white mt-1 md:mt-8' id='glock'>I'm Irfan Julian Ibrahim, you can call me Irfan.</p>
                   </div>
                   <p className='text-xl md:text-5xl text-white mt-5' id='semibold'>I'm Website Developer, Life and design enthusiast.</p>
                   <div className="wrapper md:hidden my-7">
-                    <p className='text-lg text-white' id='light'>Connect with me:</p>
+                    <p className='text-lg text-white text-center' id='light'>Connect with me:</p>
                     <div className="flex space-x-2 w-max my-4 mx-auto">
                       <button className='transition-all duration-500 hover:scale-125'>
                         <img src={linkedin} alt="" className='w-10 h-10 rounded-full' />
@@ -37,22 +37,36 @@ const LandingPage = () => {
                       <button className='transition-all duration-500 hover:scale-125'>
                         <img src={instagram} alt="" className='w-10 h-10 rounded-full' />
                       </button>
-                      <button className='transition-all duration-500 hover:scale-125'>
+                      <button className='transition-all hidden md-block duration-500 hover:scale-125'>
                         <img src={whatsapp} alt="" className='w-10 h-10 rounded-full' />
                       </button>
-                      <button className='transition-all duration-500 hover:scale-125'>
+                      <button className='transition-all hidden md-block duration-500 hover:scale-125'>
                         <img src={facebook} alt="" className='w-10 h-10 rounded-full' />
                       </button>
-                      <button className='transition-all duration-500 hover:scale-125'>
+                      <button className='transition-all hidden md-block duration-500 hover:scale-125'>
                         <img src={mail} alt="" className='w-10 h-10 rounded-full' />
                       </button>
-                      <button className='transition-all duration-500 hover:scale-125'>
+                      <button className='transition-all hidden md-block duration-500 hover:scale-125'>
+                        <img src={phone} alt="" className='w-10 h-10 rounded-full' />
+                      </button>
+                    </div>
+                    <div className="flex space-x-2 w-max my-4 mx-auto">
+                      <button className='transition-all block md:hidden duration-500 hover:scale-125'>
+                        <img src={whatsapp} alt="" className='w-10 h-10 rounded-full' />
+                      </button>
+                      <button className='transition-all block md:hidden duration-500 hover:scale-125'>
+                        <img src={facebook} alt="" className='w-10 h-10 rounded-full' />
+                      </button>
+                      <button className='transition-all block md:hidden duration-500 hover:scale-125'>
+                        <img src={mail} alt="" className='w-10 h-10 rounded-full' />
+                      </button>
+                      <button className='transition-all block md:hidden duration-500 hover:scale-125'>
                         <img src={phone} alt="" className='w-10 h-10 rounded-full' />
                       </button>
                     </div>
                   </div>
                   <div id='semibold' className='md:mt-20 grid'>
-                    <button className='bg-gradient-to-r from-[#000428] to-[#004e92] mt-7 py-2 md:px-20 px-14 rounded-lg text-lg md:text-2xl md:w-1/2 mx-auto animate-pulse transition-all text-white duration-700 hover:scale-125'>More about me? Click Here.</button>
+                    <button className='bg-gradient-to-l from-[#000428] to-[#004e92] mt-7 py-2 md:px-20 px-14 rounded-lg text-md md:text-2xl md:w-3/4 mx-auto animate-pulse transition-all text-white duration-700 hover:scale-125'>More about me? Click Here.</button>
                   </div>
                 </div>
                 <div className="w-1/2 hidden md:grid">

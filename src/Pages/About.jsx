@@ -34,7 +34,7 @@ const About = () => {
     <div className=''>
         <div className='fixed w-screen h-screen' id='wrapper'></div>
         <div className="absolute grid w-screen top-0 left-0 md:-left-5">
-            <div className='container mx-auto mt-16 pt-10 md:pt-20 px-10 md:grid' >
+            <div className='container mx-auto mt-10 pt-10 md:pt-20 px-10 md:grid' >
                 <p className='text-white text-3xl md:text-5xl text-center mb-5' id='medium'>About Me</p>
                 <div className="wrapper bg-white rounded-full p-1 w-40 md:w-80 mx-auto my-10 md:my-14">
                     <img src={image} alt="" className='w-40 md:w-80 rounded-full' />
@@ -42,10 +42,10 @@ const About = () => {
                 <div className="wrap space-y-3 text-center">
                     <p className='text-2xl md:text-4xl text-white' id='semibold'>Background :</p>
                     <p className='text-white text-lg md:text-2xl' id='extralight'>
-                        Hi there please welcome to my profile website. <span id='medium'>I'm a moslem</span>, my name is <span id='medium'>Irfan Julian Ibrahim</span> or you can call me Irfan.
+                        Hi there please welcome to my website profile. my name is <span id='medium'>Irfan Julian Ibrahim</span> or you can call me Irfan. <span id='medium'>I'm a moslem</span>, father for two kids and a husband for my beloved wife <span id='medium'>Muthia</span>.
                     </p>
                     <p className='text-white text-lg md:text-2xl' id='extralight'>
-                        I'm <span id='medium'>Technician Enginner</span>, <span id='medium'>Website Developer</span>, and <span id='medium'>Amateur Designer</span>. Now I'm working as <span id='medium'>Techcian Enginnering</span> and I'am provide to sevices build various kind of <span id='medium'>Websites</span> as side job to get more income. Sometimes I made some design for my own self.
+                        I'm <span id='medium'>Network Engineer</span>, <span id='medium'>Website Developer</span>, and <span id='medium'>Amateur Designer</span>. Currently I'm working as <span id='medium'>Network Engineer</span> and I provide to sevices build various kind of <span id='medium'>Websites</span> as side job to get more income. Sometimes I made some design for my own self.
                     </p>
                     <p className='text-white text-lg md:text-2xl' id='extralight'>
                     <span id='medium'>Curiousity</span> is my character, so that's made me never stop to learn something new in my own fucking life. Anyway I can build software with <span id='medium'>Javascript Programming Language</span> and some Libraries and Frameworks.
@@ -218,7 +218,7 @@ const About = () => {
 
                     </div>
                 </div>
-                <button className='transition-all duration-500 bg-gradient-to-r from-[#000428] to-[#004e92] text-white text-xl w-full md:w-1/2 md:mx-auto md:text-2xl py-3 my-20 rounded-xl hover:scale-110 animate-pulse' id='medium'>
+                <button className='transition-all duration-500 bg-gradient-to-l from-[#000428] to-[#004e92] text-white text-xl w-full md:w-1/2 md:mx-auto md:text-2xl py-3 my-20 rounded-xl hover:scale-110 animate-pulse' id='medium'>
                     Check My Portofolio
                 </button>
             </div>
