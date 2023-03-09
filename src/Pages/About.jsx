@@ -42,7 +42,7 @@ const About = () => {
                 <div className="wrap space-y-3 text-center">
                     <p className='text-2xl md:text-4xl text-white' id='semibold'>Background :</p>
                     <p className='text-white text-lg md:text-2xl my-auto' id='extralight'>
-                        Hi there please welcome to my website profile. my name is <span id='medium'>Irfan Julian Ibrahim</span> or you can call me Irfan. <span id='medium'>I'm a moslem</span>, father for two kids and a husband for my beloved wife <span id='medium'>Muthia</span>.
+                        Hi there please welcome to my website profile. my name is <span id='medium'>Irfan Julian Ibrahim</span> or you can call me Irfan. <span id='medium'>I'm a moslem</span>, and father for two kids.
                     </p>
                     <p className='text-white text-lg md:text-2xl' id='extralight'>
                         I'm <span id='medium'>Network Engineer</span>, <span id='medium'>Website Developer</span>, and <span id='medium'>Amateur Designer</span>. Currently I'm working as <span id='medium'>Network Engineer</span> and I provide to sevices build various kind of <span id='medium'>Websites</span> as side job to get more income. Sometimes I made some design for my own self.

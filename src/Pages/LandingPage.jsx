@@ -25,8 +25,8 @@ const LandingPage = () => {
                   </div>
                   <p className='text-xl md:text-4xl mb-5 md:-mb-5 text-white text-center md:text-left' id='extralight'>Assalamu’alaikum Warahmatullahi Wabarakatuh.</p>
                   <div className="flex space-x-2 md:my-10 md:space-x-10">
-                    <p className='text-5xl md:text-[15rem] text-white' id='glock'>Hi</p>
-                    <p className='text-sm my-auto md:text-6xl text-white mt-1 md:mt-8' id='light'>I'm Irfan Julian Ibrahim, you can call me Irfan.</p>
+                    <p className='text-6xl md:text-[15rem] text-white' id='glock'>Hi</p>
+                    <p className='text-lg my-auto md:text-6xl text-white mt-1 md:mt-8' id='light'>I'm Irfan Julian Ibrahim, you can call me Irfan.</p>
                   </div>
                   <p className='text-xl md:text-5xl text-white mt-5' id='semibold'>I'm Website Developer, Life and design enthusiast.</p>
                   <div className="wrapper md:hidden my-7">
