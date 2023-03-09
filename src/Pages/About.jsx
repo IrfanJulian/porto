@@ -48,7 +48,7 @@ const About = () => {
                         I'm <span id='medium'>Network Engineer</span>, <span id='medium'>Website Developer</span>, and <span id='medium'>Amateur Designer</span>. Currently I'm working as <span id='medium'>Network Engineer</span> and I provide to sevices build various kind of <span id='medium'>Websites</span> as side job to get more income. Sometimes I made some design for my own self.
                     </p>
                     <p className='text-white text-lg md:text-2xl' id='extralight'>
-                    <span id='medium'>Curiousity</span> is my character, so that's made me never stop to learn something new in my own fucking life. Anyway I can build software with <span id='medium'>Javascript Programming Language</span> and some Libraries and Frameworks.
+                    <span id='medium'>I'm a curiousity</span>, that character made me never stop to learn something new in my own fucking life. Anyway I can build software with <span id='medium'>Javascript Programming Language</span> and some Libraries and Frameworks.
                     </p>
                 </div>
                 <div className="wrap skills space-y-3 mt-20 md:mt-40 text-left">
